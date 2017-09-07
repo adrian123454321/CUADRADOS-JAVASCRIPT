@@ -1,17 +1,17 @@
 .cuadrado {
 	border:2px dashed gray;
-	height:200px;
+	height:350px;
 	position:relative;
-	width:80px;   
+	width:180px;   
 	background-color:black;
 }
 .circulo1{
 	background:red;
 	border-radius:100%;
-	height:40px;
+	height:80px;
 	position:absolute;
-	width:40px;    
-	left:20px;
+	width:80px;    
+	left:50px;
 	top:20px ; 
 	opacity: 0.3;
 }
@@ -19,22 +19,22 @@
 .circulo2{
 	background:yellow;
 	border-radius:100%;
-	height:40px;
+	height:80px;
 	position:absolute;
-	width:40px;  
-	left:20px ;
-	top:70px ; 
+	width:80px;  
+	left:50px ;
+	top:120px ; 
 	opacity: 0.3; 
 }
 
 .circulo3{
 	background:green;
 	border-radius:100%;
-	height:40px;
+	height:80px;
 	position:absolute;
-	width:40px;   
-	left:20px ;
-	top:120px ;  
+	width:80px;   
+	left:50px ;
+	top:220px ;  
 	opacity: 0.3;
 }
 

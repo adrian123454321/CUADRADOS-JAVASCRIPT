@@ -34,13 +34,9 @@ function App(state){
     };
 
 
-    var app= document.createElement("div");
-    app.className = "app";
-    app.appendChild(cuadrado);
+  
 
-
-
-return app;
+return cuadrado;
 }
 
 
