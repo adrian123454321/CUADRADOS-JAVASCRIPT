@@ -1,0 +1,259 @@
+<head>
+<title>WitnessTour</title>
+<!--- hay que poner el nombre del profesor aqu&íacute --->
+<!---
+   Estas fichas tienen varios links por si acaso y tambi&eacute;n puse bastantes instrucciones para ya solo llenar con la informaci&oacute;n del profesor :) espero se entienda bien.
+--->
+
+<!--- de aqu&íacute; no se toca nada, amenos que querr&aacute;s cambiar el estilo --->
+<style type="text/css">
+
+::-webkit-scrollbar {background-color:black; border:2px solid #fff;height:5px; width:5px;}
+::-webkit-scrollbar-thumb:vertical {background-color:black; border:1px solid #fff; height:40px;}
+::-webkit-scrollbar-thumb:horizontal {background-color:black;border:1px solid #fff; height:8px!important}
+
+
+
+body {
+        background-image: url('http://sales-and-marketing-solutions.com/wp-content/uploads/2013/06/website-background-pattern.jpg');
+        background-color: #cccccc;
+        margin-left: 200px;
+        padding: 0;
+        position:absolute;
+        }
+
+a {
+    text-decoration:none;
+    outline:none;
+    color:white; /*aqui cambias el color de los links */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color:#eee; /*aqui cambias el color de los links cuando el mouse pasa por encima */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+#mainContainer {
+    margin-top:40px;
+    padding:80px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:50px;
+    width:750px;
+    height:600px;
+}
+
+.container {
+    width:250px;
+    height:320px;
+    padding:5px;
+    color:#000;
+    background-size:100%;
+    border:10px solid #aacccc; /*color del borde grande */
+    font-family:helvetica;
+
+             /* ----------- Aqu&íacute; va la imagen
+                        Mejor si la cortamos de 250px por 330px -------- */
+
+    background-image:url(https://i.ytimg.com/vi/7RMQksXpQSk/maxresdefault.jpg);
+
+             /* -----------  Esta es la imagen, la de arriba, ese link---------*/
+
+    font-size:9px;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+}
+
+.extra{
+    width:270px;
+    height:350px;
+    border:5px solid #eedddd; /*color del segundo borde*/
+}
+
+.container:hover {
+    border:10px solid #dd9999; /*color del borde cuando el mouse pasa por encima*/
+    box-shadow:inset -75px -75px 400px #FFEFD5;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+}
+
+.title {
+    font-family: helvetica;
+    font-weight: bold;
+    width:420px;
+    margin-top:-350px;
+    border-bottom:3px solid #eedddd; /*color del segundo borde en el t&íacute;tulo */
+    padding-bottom:-0px;
+    padding-left:15px;
+    margin-left:275px;
+    opacity:1;
+    font-size:100px;
+    text-align:left;
+    letter-spacing:-5px;
+    color:black;
+
+}
+
+
+
+.links {
+    font-family: georgia;
+    font-style:italic;
+    font-weight:0.8;
+    margin-top:35%;
+    padding:10px;
+    margin-left:20px;
+    font-size:11px;
+    width:180px;
+    overflow:auto;
+    text-align:center;
+    color:lime;
+    background:#FF00FF;
+    box-shadow: none;
+    opacity:0;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+}
+
+.container:hover .links{
+    opacity:1;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+
+}
+
+.links a{
+    color:black;
+    margin-bottom:5px;
+    display:inline-block;
+    padding:3px;
+    background:white; /*color de los links*/
+    width:90%;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+
+}
+
+.links a:hover {
+    color:lime;
+    background:#00FF00; /* color del link cuando el mouse pasa por encima*/
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+}
+
+.text {
+    background-color:lightsalmon;
+    font-family: georgia;
+    width:488px;
+    padding-top:5px;
+    margin-left:288px;
+    opacity:1;
+    font-size:13px;
+    text-align:justify;
+    color:gold;
+    height:250px;
+    overflow:auto;
+}
+
+.info {
+    background-color:#FFA07A;
+    display:block;
+    margin-bottom:5px;
+    font-family:helvetica;
+    font-size:10px;
+    text-transform:uppercase;
+    padding:4px;
+    letter-spacing:2px;
+    margin-top:5px;
+    width:420px;
+    margin-left:280px;
+    color:white;
+    -moz-transition-duration:0.5s;
+-webkit-transition-duration:0.5s;
+-o-transition-duration:0.5s;
+}
+
+em {
+    color:#00FFFF;
+    text-transform:none;
+    font-size:11px;
+    letter-spacing:0px;
+
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div id="mainContainer">
+ <div class="extra">
+      <div class="container">
+
+
+
+ <div class="links">
+
+    <a href="https://es-la.facebook.com/katyperry/">Facebook</a>
+    <a href="https://www.instagram.com/katyperry/?hl=es">Instagram</a>
+    <a href="https://twitter.com/katyperry?lang=es">Twitter</a>
+    <a href="https://www.mundosnapchat.com/famosos/katy-perry">Snapchat</a>
+    <a href="https://www.katyperry.com/">Promociones</a>
+ </div>
+
+ </div>
+
+ <div class="title">Katy Perry</div>
+
+      <div class="info">
+     Numero de telefono: <em>3435 8870</em><br>
+     </div>
+     <div class="info">
+     Correo: <em>katyperry@gmail.com</em>
+ </div>
+     <div class="info">
+     Direccion:<em>8332 Melrose Avenue
+Top Floor
+Los Angeles, CA 90069
+Estados Unidos</em><br>
+     </div>
+
+
+ <div class="text">
+
+
+   <p>Descripcion:  </p>
+	<p></p>
+<p>Nació el 25 de octubre de 1984 en Santa Bárbara, California, Estados Unidos.
+
+Hija de Maurice Keith Hudson y Mary Christine Perry, dos pastores evangélicos. Tiene ascendencia portuguesa, alemana, irlandesa, e inglesa. Sobrina del director de cine y productor Frank Perry (1930-1995). Tiene un hermano menor llamado David (nacido en 1988), que es cantante, y una hermana mayor, Ángela (nacida en 1982).
+
+Desde los tres a los once años, viajó por diferentes estados ya que sus padres establecieron iglesias, antes asentarse de nuevo en Santa Bárbara.
+ 
+Asistió a escuelas y campamentos religiosos, como la Paradise Valley Christian School y la Santa Barbara Christian School durante sus años de primaria.
+
+El 30 de agosto de 2010 vio la luz su segundo disco de estudio. Este álbum consiguió el primer puesto en el Billboard 200 en varios países. Esta compuesto por sencillos como, "California Gurls", "Teenage Dream" o "Firework", temas que fueron número uno en la lista de Billboard Hot 100 en varios países. En 2011, MTV la nombra Artista del año y en 2012 es nominada a ocho Premios Grammy. En noviembre de 2012, Perry comenzó a trabajar en su cuarto álbum, Prism. Su primer sencillo fue Roar, presentado el 10 de agosto de 2013, alcanzó el número uno en el Billboard Hot 100. Unconditionally, el segundo sencillo, fue lanzado el 16 de octubre de 2013 y alcanzó el puesto número 14 de los más vendidos en los Estados Unidos. Prism fue estrenado el 18 de octubre de 2013, debutando en el número uno del Billboard 200.
+
+Formó parte del jurado de American Idol y The X Factor.
+
+La cantante tuvo una relación con el músico Travis McCoy. Fue pareja del comediante británico Russell Brand. Se casaron el 23 de octubre de 2010 en la India y el 30 de diciembre de 2011, tras catorce meses de matrimonio, Brand pidió el divorcio en Los Ángeles, alegando diferencias irreconciliables.</p>
+
+</div>
+
+
+</body>
+
+
+</html>a
